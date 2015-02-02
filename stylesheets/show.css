@@ -8,23 +8,16 @@
  line-height: 180%;
  margin-top: 5px;
 }
+.box_1  .table .cell {
+ vertical-align: middle;
+}
 
 .box_2 {
  padding-top: 0;
 }
-.table {
- display: table;
- width: 100%;
- border-collapse: separate;
- border-spacing: 13px;
-}
-
-.table .table_row {
- display: table-row;
-}
 
 .box_2  .table .cell {
- display: table-cell;
+
  text-align: center;
  vertical-align: middle;
  border: 1px solid #dedede;

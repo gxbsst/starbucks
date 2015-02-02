@@ -6,3 +6,17 @@ body {
 .grid {
     padding: 0;
 }
+
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 13px;
+}
+
+.table .table_row {
+    display: table-row;
+}
+.table .cell {
+    display: table-cell;
+}
