@@ -11,7 +11,7 @@ body {
     display: table;
     width: 100%;
     border-collapse: separate;
-    border-spacing: 13px;
+    border-spacing: 16px;
 }
 
 .table .table_row {
