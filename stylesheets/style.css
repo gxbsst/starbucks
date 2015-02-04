@@ -17,7 +17,6 @@ body{
 .box1 .header img{
     float: left;
     margin-right: 10px;
-
 }
 
 
@@ -46,6 +45,10 @@ body{
     float: left;
 }
 
+
+.box1 .box2 button{
+    float: right;
+}
 
 
 .box1 .box3{
