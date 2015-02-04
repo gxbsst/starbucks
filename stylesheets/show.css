@@ -1,15 +1,20 @@
 .box_1 .mobile-col-1-1 h2{
  margin-bottom: 1px;
- font-size: 2.3em;
+ font-size: 1.2em;
  margin-top: 20px;
 }
 .box_1 .mobile-col-1-1 p {
- font-size: 1.8em;
- line-height: 180%;
+ font-size: 0.8em;
+ line-height: 140%;
  margin-top: 5px;
 }
 .box_1  .table .cell {
  vertical-align: middle;
+}
+
+.box_1 .mobile-col-1-1 .content .table .cell img{
+ width: 100%;
+ margin-top: 10px;
 }
 
 .box_2 {
@@ -23,13 +28,20 @@
  border: 1px solid #dedede;
  width: 33.33%;
  background: #EEE;
- padding: 10px;
- height: 240px;
+ padding: 20px 10px 0 10px;
+}
 
+.box_2 .mobile-col-1-1{
+ padding-left: 9px;
+}
+
+
+.box_2 .table .cell img{
+ width: 40%;
 }
 
 .table .cell h3 {
  margin-top: 6px;
- font-size: 16pt;
-
+ font-size: 12pt;
+ font-weight: 300;
 }

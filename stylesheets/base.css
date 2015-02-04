@@ -1,7 +1,6 @@
 body {
     background: #f6f6f6;
     padding: 0;
-    margin: 0;
 }
 .grid {
     padding: 0;
@@ -11,7 +10,7 @@ body {
     display: table;
     width: 100%;
     border-collapse: separate;
-    border-spacing: 16px;
+    border-spacing: 13px;
 }
 
 .table .table_row {
@@ -19,4 +18,29 @@ body {
 }
 .table .cell {
     display: table-cell;
+}
+
+footer{
+    text-align: center;
+    padding-top:20px ;
+}
+
+
+
+footer h2{
+    text-decoration: none;
+    font-size: 10pt;
+    color: #999;
+    font-weight: 300;
+}
+
+
+footer h2 a:link,a:active,a:visited{
+    color: #08c;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+footer h2 a:hover{
+    text-decoration: underline;
 }
