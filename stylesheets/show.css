@@ -45,3 +45,29 @@
  font-size: 12pt;
  font-weight: 300;
 }
+
+
+footer{
+ text-align: center;
+ padding-top:20px ;
+}
+
+
+
+footer h2{
+ text-decoration: none;
+ font-size: 10pt;
+ color: #999;
+ font-weight: 300;
+}
+
+
+footer h2 a:link,a:active,a:visited{
+ color: #08c;
+ text-decoration: none;
+ margin-left: 5px;
+}
+
+footer h2 a:hover{
+ text-decoration: underline;
+}
