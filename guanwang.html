@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="stylesheets/guanwang.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/jquery.fullPage.css"/>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="javascripts/jquery.min.js"></script>
     <!-- This following line is needed only in case of using other easing effect rather than "linear", "swing" or "easeInQuart". You can also add the full jQuery UI instead of this file if you prefer -->
     <script src="javascripts/jquery.easings.min.js"></script>
     <!-- This following line needed in the case of using the plugin option `scrollOverflow:true` -->
@@ -28,23 +28,34 @@
 </div>
 
 
-<div class="section">
-    <div class="slide"> Slide 1 </div>
-    <div class="slide"> Slide 2 </div>
-    <div class="slide"> Slide 3 </div>
-    <div class="slide"> Slide 4 </div>
+<div id="fp-nav" style="color: rgb(0, 0, 0); margin-top: -43.5px;" class="right">
+    <ul>
+        <li>
+            <a href="#" class=""><span></span></a>
+
+            <div class="fp-tooltip right">fullPage.js</div>
+        </li>
+        <li><a href="#" class="active"><span></span></a>
+
+            <div class="fp-tooltip right">Powerful</div>
+        </li>
+        <li><a href="#"><span></span></a>
+
+            <div class="fp-tooltip right">Amazing</div>
+        </li>
+        <li><a href="#"><span></span></a>
+
+            <div class="fp-tooltip right">Simple</div>
+        </li>
+    </ul>
 </div>
-
-
-
-
 
 
 </body>
 
 <script>
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('#fullpage').fullpage();
     });
 
