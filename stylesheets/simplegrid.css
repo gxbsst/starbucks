@@ -285,4 +285,9 @@ body {
 		width: 0;
 		height: 0;
 	}
+
+	.box_1  .table .cell a{
+		text-decoration: none;
+		display: inline-block;
+	}
 }

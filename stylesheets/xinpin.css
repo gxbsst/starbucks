@@ -23,43 +23,58 @@
     margin-top: 15px;
 }
 
-
 .box2{
-    text-align: center;
-}
-
-.box3{
-    text-align: center;
+    padding: 0 20%;
+    border-bottom: 1px solid #e4e4e4;
 }
 
 .box4{
-    text-align: center;
-    padding: 0 40%;
+    margin-bottom: 200px;
 }
 
-.box4 img{
+
+.box2 img{
+    width:15%;
     float: left;
-    margin-right: 10px;
-}
-.box4 p{
-    font-size: 17px;
-    display: inline-block;
-    margin-top: 5px;
+    margin-right: 20px;
 }
 
-.box4 p span{
-    font-size: 30px;
-    margin: 0 10px;
+.box2 h2{
+    font-size: 15pt;
+    font-weight: 300;
+}
+
+.box2 p{
+    font-size: 13pt;
+    font-weight: 300;
+    color: #888;
+    margin-bottom: 0;
+}
+
+.box2 h3{
+    float: left;
     color: red;
+    font-size: 13pt ;
+    font-weight: 300;
+    margin-top: 17px;
+}
+
+.box2 .text{
+    margin-top: 19px;
+    margin-left: 140px;
+    display: inline-block;
+}
+
+.box2 .text span{
+    color: #006c29;
 }
 
 
-
-.box5 {
+.box3 {
     position: relative;
 }
 
-.box5 .nav {
+.box3 .nav {
     background: #e9e9e9;
     position: fixed;
     text-align: center;
@@ -69,7 +84,7 @@
 
 
 
-.box5 a {
+.box3 a {
     display: inline-block;
     text-decoration: none;
     width: 33%;
@@ -77,66 +92,86 @@
 
 }
 
-.box5 a:hover{
+.box3 a:hover{
     background: #dddddd;
 
 }
 
-.box5 .nav{
+.box3 .nav{
     border-left: 1px solid #dddddd;
     border-right:1px solid #dddddd ;
 }
-.box5 h2 {
+.box3 h2 {
     margin: 0;
     color: #000;
     font-size: 13pt;
     font-weight: bold;
 }
 
-.box5 img {
+.box3 img {
     display: inline-block;
     width: 30%;
     margin-top: 20px;
 }
 
 
+
 @media handheld, only screen and (max-width: 767px) {
-
-    .box2 img{
-        margin-left: 5px;
+    .box_2{
+        margin-top: 10px;
     }
-
-    .box2 h2{
-        font-size: 13pt;
-        font-weight: 300;
-    }
-
-    .box3 img{
-        width: 80%;
+    .box2{
+        padding: 0;
+        white-space: nowrap;
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
     }
 
     .box4{
-        padding: 0 10px;
+        margin-bottom: 80px;
     }
 
-    .box4 img{
-        margin-left: 18px;
+    .box2 img{
+        width: 100px;
+        margin: 0 10px;
+    }
+
+    .box2 .text{
+        margin-top: 15px;
+        margin-left: 0;
         margin-right: 0;
-        width: 9%;
-        margin-top: 5px;
+        float: right;
+
     }
 
-    .box4 p{
-        font-size: 13pt;
+    .box2 h2{
+        font-size: 14pt;
         font-weight: 300;
+        margin: 0;
+    }
+
+    .box2 p{
+        margin-top: 10px;
+        line-height: 10px;
+        font-size: 0.8em;
+
+
+    }
+
+    .box2 h3{
+        float: left;
+        font-size: 18px;
+        margin-bottom: 13px;
+        margin-top: 10px;
     }
 
 
-    .box5 {
+    .box3 {
         position: relative;
     }
 
-    .box5 .nav {
+    .box3 .nav {
         background: #e9e9e9;
         position: fixed;
         text-align: center;
@@ -145,36 +180,37 @@
 
 
 
-    .box5 a {
+    .box3 a {
         display: inline-block;
         text-decoration: none;
-        width: 32.4%;
+        width: 32.2%;
         color: #dedede;
 
     }
 
-    .box5 a:hover{
+    .box3 a:hover{
         background: #dddddd;
 
     }
 
 
-    .box5 h2 {
+    .box3 h2 {
         color: #333;
         font-weight: 300;
         font-size: 13pt;
         margin-bottom: 8px;
     }
 
-    .box5 .nav1{
+    .box3 .nav1{
         border-left: 1px solid #dedede;
         border-right: 1px solid #dedede;
     }
 
-    .box5 img {
+    .box3 img {
         display: inline-block;
         margin-top: 5px;
     }
+
+
+
 }
-
-

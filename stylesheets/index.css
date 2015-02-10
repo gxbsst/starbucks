@@ -1,7 +1,7 @@
 .box_1 .mobile-col-1-1 h2{
  margin-bottom: 1px;
  font-size: 1.2em;
- margin-top: 20px;
+ margin-top: 30px;
 }
 .box_1 .mobile-col-1-1 p {
  font-size: 0.8em;
@@ -12,9 +12,15 @@
  vertical-align: middle;
 }
 
+.table .cell a{
+ text-decoration: none;
+ display: inline-block;
+ color: #000;
+}
+
 .box_1 .mobile-col-1-1 .content .table .cell img{
  width: 100%;
- margin-top: 10px;
+ margin-top: 15px;
 }
 
 .box_2 {
